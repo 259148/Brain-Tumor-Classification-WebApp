@@ -1,7 +1,5 @@
 
-%%writefile app.py 
-#importing all the required libraries
-#!pip install streamlit
+
 import streamlit as st 
 import tensorflow as tf
 import cv2
