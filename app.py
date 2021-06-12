@@ -15,12 +15,12 @@ st.set_option('deprecation.showfileUploaderEncoding',False) #on loading a stream
 @st.cache(allow_output_mutation=True) #this line prevent us from loading the model again and again and will help in storing the model in cache once it has been loaded
 
 def load_model(): #loading our model
-  model = tf.keras.models.load_model('/content/drive/MyDrive/Brain Tumor/BrainTumorModel .h5')
+  model = tf.keras.models.load_model('BrainTumorModel .h5')
   return model
 
 model = load_model()
 #defining the header or title of the page that the user will be seeing. We also make a side bar for the web app
-image1=Image.open('/content/drive/MyDrive/Brain Tumor/RVlogo.jpg')
+image1=Image.open('logo.jpg')
 st.image(image1,use_column_width=False)
 st.markdown("<h1 style='text-align: center; color: Black;'>Brain Tumor Classifier</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: Black;'>All you have to do is Upload the MRI scan and the model will do the rest!</h3>", unsafe_allow_html=True)
