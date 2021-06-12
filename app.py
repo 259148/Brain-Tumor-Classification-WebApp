@@ -2,7 +2,7 @@
 
 import streamlit as st 
 import tensorflow as tf
-import cv2
+#import cv2
 import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, BatchNormalization, Flatten
