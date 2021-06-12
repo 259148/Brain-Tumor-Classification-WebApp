@@ -2,5 +2,5 @@ streamlit==0.68.1
 numpy==1.18.1
 tensorflow==1.15.2
 opencv-python== 3.4.3.18
-keras==2.5.0
+keras== 0.2.0
 PIL==7.1.2
